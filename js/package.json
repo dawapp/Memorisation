@@ -1,0 +1,72 @@
+
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "",
+  "licenses": [
+    {"type": "MIT"}
+  ],
+  "author": {
+    "name": "Dilwoar Hussain",
+    "email": "dilwoar.hussain@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Hasnat Hoque",
+      "email": "hasnath@hotmail.com"
+    }
+  ],
+  "main": "src/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dawapp/Memorisation.git"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "grunt test",
+    "predeploy": "echo This will be run before deploying the app",
+    "postdeploy": "echo This will be run after deploying the app"
+  },
+  "dependencies": {
+    "bluebird": "1.x.x",
+    "clean-css": "1.x.x",
+    "dustjs-helpers": "1.x.x",
+    "dustjs-linkedin": "2.x.x",
+    "express": "3.x.x",
+    "font-awesome": "4.x.x",
+    "googleapis": "0.x.x",
+    "jquery": "2.x.x",
+    "lodash": "2.x.x",
+    "node-uuid": "1.4.0",
+    "npm": "1.x.x",
+    "oboe": "1.x.x",
+    "pulverizr": "0.x.x",
+    "requirejs": "2.x.x",
+    "request": "2.x.x",
+    "twitter-bootstrap-3.0.0": "3.x.x",
+    "uglify-js": "2.x.x"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "0.x.x",
+    "grunt": "0.x.x",
+    "grunt-contrib-clean": "0.x.x",
+    "grunt-contrib-coffee": "0.x.x",
+    "grunt-contrib-concat": "0.x.x",
+    "grunt-contrib-copy": "0.x.x",
+    "grunt-contrib-jshint": "0.x.x",
+    "grunt-contrib-uglify": "0.x.x",
+    "grunt-contrib-watch": "0.x.x",
+    "grunt-dust": "0.x.x",
+    "grunt-env": "0.x.x",
+    "grunt-livescript": "0.x.x",
+    "grunt-recess": "0.x.x",
+    "grunt-mocha-test": "0.x.x",
+    "mocha": "1.x.x",
+    "mocha-as-promised": "1.x.x",
+    "should": "2.x.x",
+    "supertest": "0.x.x",
+    "blanket": "1.x.x",
+    "chai": "1.x.x"
+  }
+}
