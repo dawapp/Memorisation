@@ -25,11 +25,11 @@ $(function() {
   compiled = dust.compile(html, template_name);
   dust.loadSource(compiled);
   template_name = "levels_page";
-  html = '<h2>Levels</h2> <div class="levels"></div>';
+  html = '<h2>Levels</h2> <br/> <div class="levels"></div>';
   compiled = dust.compile(html, template_name);
   dust.loadSource(compiled);
   template_name = "level_list";
-  html = '<div class="list-group"> {#.} <a href="#" class="list-group-item"> <h4 class="list-group-item-heading">{name}</h4> <p class="list-group-item-text">...</p> </a> {/.} </div>';
+  html = '{#.} <legend>{level_name}</legend> <div class="list-group"> {#targets} <a href="#" class="list-group-item"> <h4 class="list-group-item-heading">{name}</h4> <p class="list-group-item-text">{summary}</p> </a> {/targets} </div> {/.}';
   compiled = dust.compile(html, template_name);
   return dust.loadSource(compiled);
 });
